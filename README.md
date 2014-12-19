@@ -34,6 +34,7 @@ bspatch('oldfile.txt', 'newfile_with_patch.txt', 'diff.patch');
 
 ##Demo
 
+```shell
 eagle@Macbok-Pro:[~/Source/phpdiff]$tree demo/
 demo/
 ├── diff.php
@@ -42,4 +43,5 @@ demo/
 └── patch.php
 
 0 directories, 4 files
+```
 
