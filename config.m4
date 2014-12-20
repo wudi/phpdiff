@@ -7,9 +7,9 @@ dnl without editing.
 
 dnl If your extension references something external, use with:
 
-dnl PHP_ARG_WITH(phpdiff, for phpdiff support,
-dnl Make sure that the comment is aligned:
-dnl [  --with-phpdiff             Include phpdiff support])
+PHP_ARG_WITH(phpdiff, for phpdiff support,
+Make sure that the comment is aligned:
+[  --with-phpdiff             Include phpdiff support])
 
 dnl Otherwise use enable:
 
