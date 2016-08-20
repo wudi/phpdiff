@@ -17,7 +17,7 @@ Download bzip2 and **use make && make install**
 1. git clone https://github.com/EagleWu/phpdiff.git
 2. cd phpdiff
 3. phpize
-4. ./configure --with-php-config=/php-path/bin/php-config
+4. export LDFLAGS="-lbz2" && ./configure --with-php-config=/php-path/bin/php-config
 5. make && make install
 6. echo "extension=phpdiff.so" >> /php-path/etc/php.ini
 
