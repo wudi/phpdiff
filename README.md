@@ -6,13 +6,13 @@ phpdiff
 1. 对新旧两个文件的二进制对比，生成差异文件；
 2. 使用旧文件和差异包生成新文件
 
-##Requirements(依赖环境)
+## Requirements(依赖环境)
 
 bzip2 http://www.bzip.org/downloads.html
 
 Download bzip2 and **use make && make install**
 
-##Installation(安装PHP扩展)
+## Installation(安装PHP扩展)
 
 1. git clone https://github.com/EagleWu/phpdiff.git
 2. cd phpdiff
@@ -21,9 +21,9 @@ Download bzip2 and **use make && make install**
 5. make && make install
 6. echo "extension=phpdiff.so" >> /php-path/etc/php.ini
 
-##Usage(使用方法)
+## Usage(使用方法)
 
-#####(bool) bsdiff(oldfile, newfile, diff.patch)
+##### (bool) bsdiff(oldfile, newfile, diff.patch)
 
 ```php
 <?php
@@ -33,7 +33,7 @@ Download bzip2 and **use make && make install**
 
 ```
 
-#####(bool) bspatch(oldfile, newfile, diff.patch)
+##### (bool) bspatch(oldfile, newfile, diff.patch)
 
 ```php
 <?php
@@ -43,7 +43,7 @@ Download bzip2 and **use make && make install**
 
 ```
 
-##Try Demo(测试文件demo目录下)
+## Try Demo(测试文件demo目录下)
 
 ```shell
 eagle@Macbok-Pro:[~/Source/phpdiff]$tree demo/
