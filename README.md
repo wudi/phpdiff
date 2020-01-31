@@ -1,6 +1,12 @@
 phpdiff
 =======
 
+---
+
+**THE REPO IS UNMAINTAINED.**
+
+---
+
 [bsdiff](http://www.daemonology.net/bsdiff/ "bsdiff") for php extension 二进制差异包工具php扩展
 
 1. 对新旧两个文件的二进制对比，生成差异文件；
